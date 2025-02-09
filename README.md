@@ -12,7 +12,7 @@ To get started, all you need are two folders. One containing a set of real image
 * tifffile (2024.5.2)
 * PIL (pillow 10.3.0)
 
-We recommend using a device with an Nvidia GPU and CUDA installed (we used release 11.6, V11.6.55), as the code has not been tested on other hardware. In principle, any device able to use tensorflow should work.
+The tensor_flow_env.yaml file can be used to set up a conda environment identical to the one in which the code was tested. We recommend using a device with an Nvidia GPU and CUDA installed (we used release 11.6, V11.6.55), as the code has not been tested on other hardware. In principle, any device able to use tensorflow should work.
 
 There are 3 notebooks that you will run to get your desired set of generated images
 
@@ -22,8 +22,12 @@ There are 3 notebooks that you will run to get your desired set of generated ima
 
 3. `generator.ipynb` - Once we have the model trained and the best checkpoint, this notebook will take a folder of fake/simulated images and will make generated images from them.
 
-If you have any questions, feel free to contact me:
+
+The data.zip folder contains some sample images to check if your installation works correctly. These images consist of real and synthetic images of rod-shaped bacteria.
+
+If you have any questions, feel free to contact us:
 
 
 Abid Khan: abid.a.khan@jpmchase.com
+
 Vincent Hickl: vincent.hickl@empa.ch
